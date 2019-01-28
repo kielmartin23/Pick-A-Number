@@ -1,0 +1,174 @@
+h1, h2, p, li, body {
+   font-family: Arial, Verdana, sans-serif;
+   color: azure;
+}
+
+#gameHeader {
+    width: 100%;
+    border-top: 8px double white;
+    border-bottom: 4px solid slategray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: indianred;
+}
+
+table#roundStats td{
+    width: 100px;
+}
+
+body {
+    background-color: lightslategray;
+    margin: 0px;
+}
+
+#gameContainer {
+    max-width: 800px;
+    min-width: 230px;
+    overflow: auto;
+    padding: 5px;
+    margin: 0px auto;
+}
+.gameColumn {
+    float: left;
+    width: 210px;
+    border-width: 8px;
+    margin: 0px 10px 0px 10px;
+}
+
+.scoreboard {
+    margin: 10px 20px 0px 20px;
+    background-color: black;
+    color: white;
+    border: 8px double white;
+    border-radius: 25px;
+    width: 190px;
+    padding: 10px;
+    text-align: center;
+}
+
+#info {
+    margin: 0px auto;
+    vertical-align: center;
+    text-align: center;
+}
+
+#keypad {
+    overflow: auto;
+    width: 245px;
+    margin-top: 10px;
+}
+ 
+#keypadheader {
+    width: 180px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: seagreen;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top: 8px double white;
+    border-right: 8px double white;
+    border-left: 8px double white;
+    text-align: center;
+}
+
+
+#keypadContainer {
+    width: 180px;
+    height: 260px;
+    border: 8px double white;
+    padding: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: indianred;
+    
+}
+
+#leftNumberColumn {
+    float: left;
+    width: 60px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+#centerNumberColumn {
+    float: left;
+    width: 60px;
+    margin: 0px auto;
+}
+
+#rightNumberColumn {
+    float: left;
+    width: 60px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+.gameButton {
+    display: block;
+    background-color: indianred;
+    color: white;
+    border: 6px double white;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px; 
+    margin: 5px auto; 
+}
+
+.gameButton:hover {
+    background-color: lightskyblue;
+    border: 6px double white;
+}
+
+.gameButtonVisited {
+    display: block;
+    background-color: lightslategray;
+    color: darkgray;
+    border: 6px double darkgrey;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px; 
+    margin: 5px auto;
+}
+
+.gameButtonIsNumber {
+    display: block;
+    background-color: seagreen;
+    color: white;
+    border: 6px double white;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px; 
+    margin: 5px auto;
+}
+
+.indicatorButton {
+    display: block;
+    font-size: 22pt;
+    background-color: indianred;
+    color: white;
+    border: 10px double white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px; 
+    margin: 10px auto 10px auto;
+    position: sticky;
+}
+
+.indicatorButtonWin:hover {
+    background-color: lightskyblue;
+    border: 10px double white;
+}
+
+.indicatorButtonWin {
+    display: block;
+    font-size: 22pt;
+    background-color: seagreen;
+    color: white;
+    border: 10px double white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px; 
+    margin: 10px auto;
+    position: sticky;
+}

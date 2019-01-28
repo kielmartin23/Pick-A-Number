@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pick a Number</title>
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="images/favicon.png" type="image/x-icon" /> 
+	</head>
+	<body>
+		<div id="gameHeader">
+			<h2 id="info">Pick a number from 1 to 10</h2>
+		</div>
+		<div id="numberToGuess">
+			<button id="indicator" class="indicatorButton">?</button>	
+		</div>
+		<div id="gameContainer">
+		<div id="histogram" class="gameColumn scoreboard">
+			Random Number History
+			<table id="histogram">
+				<thead>
+					<tr>
+						<th>Number</th>
+						<th>Rounds</th>
+						<th>Percent</th>
+					</tr>
+				</thead>
+					<tr>
+						<td id="h1">1:</td>
+						<td id="r1">-</td>
+						<td id="rp1">-</td>						
+					</tr>
+					<tr>
+						<td id="h2">2:</td>
+						<td id="r2">-</td>
+						<td id="rp2">-</td>						
+					</tr>
+					<tr>
+						<td id="h3">3:</td>
+						<td id="r3">-</td>
+						<td id="rp3">-</td>						
+					</tr>
+					<tr>
+						<td id="h4">4:</td>
+						<td id="r4">-</td>
+						<td id="rp4">-</td>						
+					</tr>
+					<tr>
+						<td id="h5">5:</td>
+						<td id="r5">-</td>
+						<td id="rp5">-</td>						
+					</tr>
+					<tr>
+						<td id="h6">6:</td>
+						<td id="r6">-</td>
+						<td id="rp6">-</td>						
+					</tr>
+					<tr>
+						<td id="h7">7:</td>
+						<td id="r7">-</td>
+						<td id="rp7">-</td>						
+					</tr>
+					<tr>
+						<td id="h8">8:</td>
+						<td id="r8">-</td>
+						<td id="rp8">-</td>						
+					</tr>
+					<tr>
+						<td id="h9">9:</td>
+						<td id="r9">-</td>
+						<td id="rp9">-</td>						
+					</tr>
+					<tr>
+						<td id="h10">10:</td>
+						<td id="r10">-</td>
+						<td id="rp10">-</td>						
+					</tr>
+			</table>
+		</div>
+		<div id="keypad" class="gameColumn">
+			<div id="keypadheader" class="gameColumn">
+				<div id="keypadheadertext">
+					<table id="roundStats">
+						<thead>
+							<tr>
+								<th>Round</th>
+								<th>Guesses</th>
+							</tr>
+						</thead>
+						<tr>
+							<td id="roundNumber">1</td>
+							<td id="roundGuesses">0</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="keypadContainer" class="gameColumn">
+				<div id="leftNumberColumn" class="sideNumberColumn">
+					<button id="b1" class="gameButton">1</button>
+					<button id="b4" class="gameButton">4</button>
+					<button id="b7" class="gameButton">7</button>
+				</div>
+		    	<div id="centerNumberColumn" class="insideNumberColumn">
+					<button id="b2" class="gameButton">2</button>
+					<button id="b5" class="gameButton">5</button>
+					<button id="b8" class="gameButton">8</button>
+					<button id="b10" class="gameButton">10</button>
+				</div>
+				<div id="rightNumberColumn" class="sideNumberColumn">
+					<button id="b3" class="gameButton">3</button>
+					<button id="b6" class="gameButton">6</button>
+					<button id="b9" class="gameButton">9</button>
+				</div>
+			</div>
+		</div>
+		<div id="stats" class="gameColumn scoreboard">
+			Scoreboard
+			<table id="scoreboard">
+				<thead>
+					<tr>
+						<th>Round</th>
+						<th>Number</th>
+						<th>Guesses</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td id="avgGuessesLabel"></td>
+						<td id="avgGuesses"></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		</div>
+	<script type="text/javascript" src="js/onetoten.js"></script>	
+	</body>
+</html>
